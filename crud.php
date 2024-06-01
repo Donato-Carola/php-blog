@@ -63,11 +63,11 @@ $result = $query->get_result();
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header class="d-flex justify-content-between container">
+<header class="d-flex justify-content-between container pt-4">
     <div>
         <h1>User Dashboard</h1>
     </div>
-    <div>
+    <div >
         <a href="index.php" class="btn btn-secondary">Home</a>
         <a href="logout.php" class="btn btn-danger">Logout</a>
     </div>

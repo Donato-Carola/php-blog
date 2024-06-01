@@ -39,7 +39,7 @@ $result = $connection->query($query);
         <div>
             <h1>My Awesome Blog</h1>
         </div>
-        <div>
+        <div class="pt-1">
             <?php if (isset($_SESSION['user_id'])): ?>
                 <a href="crud.php" class="btn btn-primary">Dashboard</a>
             <?php else: ?>
