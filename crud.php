@@ -12,6 +12,7 @@ define("DB_USERNAME", "root");
 define("DB_PASSWORD", "root");
 define("DB_NAME", "myblog");
 
+
 $user_id = $_SESSION['user_id'];
 
 // Connessione al database
